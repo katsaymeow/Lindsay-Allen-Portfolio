@@ -1,0 +1,126 @@
+:root {
+    /* Rename these custom variables to practical descriptors, i.e. mainBodyTextColor, bgMain, borderColor, etc.*/
+    --port-gore: #251e51;
+    --sushi: #a4af44;
+    --te-pa-green: #225248;
+    --scarlet-gum: #590f5e;
+    --kidnapper: #e3edd4;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+/* #myElementId , .myElementClass */
+#section-contact {
+    background-color: pink;
+}
+
+header nav a {
+    color: var(--scarlet-gum);
+}
+
+body {
+    background-color: var(--kidnapper);
+    background-size: auto;
+    margin: 0;
+    padding: 3px;
+    color: var(--port-gore);
+    border: solid 3px pink;
+}
+
+/* main {
+    display: flex;
+    padding: 3px;
+} */
+
+footer {
+    padding: 0px;
+    border: solid var(--scarlet-gum);
+    background-color: var(--te-pa-green);
+    border-width: 5px;
+    height: 50px;
+    box-sizing: content-box 1rem;
+    color: var(--kidnapper);
+    border: solid 3px cadetblue
+}
+
+.top {
+    padding: 3px;
+    border: 5px solid var(--scarlet-gum);
+    background-color: var(--te-pa-green);
+    height: 50px;
+    color: var(--kidnapper);
+    margin: 0;
+}
+
+.content {
+    padding: 3px;
+    max-height: fit-content;
+}
+
+.photo {
+    float: left;
+    background-color: #a4af44;
+    color: var(--port-gore);
+    padding: 3px;
+    width: flex;
+    background-color: var(--sushi);
+    padding: 14px 20px;
+}
+
+.photo p {
+    font-size: 30px;
+    border: solid 2px red;
+}
+
+nav {
+    position: relative;
+    color: var(--port-gore);
+    padding: 95px;
+    background-color: var(--sushi);
+    display: inline flex 100%;
+    padding: 3px;
+}
+
+nav a:hover {
+    color: #FFC; /*these will change the box colors on hover. keep this*/
+    
+}
+
+input[type=text], input[type=email], select, textarea {
+    width: 175px; /* Full width--changed to 175px */
+    padding: 12px; /* Some padding */ 
+    border: 2px solid var(--scarlet-gum); /* Gray border */
+    border-radius: 35px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: var(--sushi);
+    color: var(--scarlet-gum);
+    padding: 15px 20px;
+    border: var(--port-gore) 2px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: var(--te-pa-green);
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 5px;
+    background-color: var(--kidnapper);
+    padding: 20px;
+  }
