@@ -9,7 +9,7 @@ Here is the link to the page that is my current working portfolio: https://kats
 Here are the links to all repositories:
 Repository that this project is in: https://github.com/katsaymeow/Lindsay-Allen-Portfolio
 
-Repositories that hold my other projects are: https://github.com/katsaymeow/Week-1-Challenge and https://github.com/katsaymeow/test-html-css-just-for-fun
+Repositories that hold my other projects are: https://github.com/katsaymeow/Week-1-Challenge  and  https://github.com/katsaymeow/test-html-css-just-for-fun
 
 ### I would like to note that I also chose to include my actually experience of maintaining a website. While we host our store with Shopify, a lot of work, and even some coding on my part, has gone into to it. I am personally responsible for the backend operations such as programing shipping rates based on location and making sure our pages link and function correctly. The last ten years of helping my husband reach his dreams sparked my interest in learning to code and lead me here.
 Our site is https://www.mycohaus.com/
