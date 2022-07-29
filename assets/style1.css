@@ -4,7 +4,7 @@
     --green-dark: #225248;
     --purple: #590f5e;
     --white: #e3edd4;   
-}
+}/* renamed colors to fit better*/
 
 * {
     font-family: Verdana, Geneva, Tahoma, sans-serif ;
@@ -12,7 +12,7 @@
     color: var(--text);
 }
 
-/* text decoration --- flex the parents not the children */
+/* text decoration --- flex the parents not the children Ok I need to assign id or classes to each and every <p> and most <div> this is stopping me from being able to style the writing into the form and place i want it */
 header, nav, #navbar {
     padding: 0px 50px 35px 50px;
     color: var(--green-dark);
@@ -21,7 +21,7 @@ header, nav, #navbar {
 .container, .container-work {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
+    flex-direction: column; /* I am not sure what is flexing and what is not at this point. I will most likely create a new style sheet once I refactor my html to except the styling the way I need it */
     padding: 50px;
     margin: 0;
     width: 85%;
@@ -41,7 +41,7 @@ header, nav, #navbar {
     }
 }
   
-    .card-item {
+    .card-item { /* I am not sure this is doing anything*/
       display: flex;
       flex-direction: row;
       background-color: var(--white);
@@ -52,7 +52,7 @@ header, nav, #navbar {
       transition: transform 0.5s;
       -webkit-transition: transform 0.5s;
     }
-      .container:hover {
+      .container:hover { /* some more playing with this and I think I can get it to behave*/
         cursor: pointer;
         transform: skew(2px);
         -webkit-transform: scale(1.1);
@@ -86,7 +86,7 @@ header, nav, #navbar {
       opacity: 0.91;
     }*/
 
-input[type=text], input[type=email],
+input[type=text], input[type=email], /*this is my contact hover. it works, but I am not sure I needed all this to do it and can be cleaned up */
 select, textarea {
     width: 175px;
     padding: 12px;
